@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Download sunnyskyking lattest Music</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="style.css"> <!-- Optional -->
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+</head>
+<body>
+<h1>Welcome to Sunny sky king App</h1>
+    <p>This is the index page</p>
+    <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo">
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+<h1>URL Content Fetcher</h1>
+    <form action="/" method="get">
+        <input type="text" name="url" placeholder="Enter URL" required>
+        <button type="submit">Get Content</button>
+    </form>	
+			<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container">
+			<a class="navbar-brand" href="#" Sunnyskyking Lattest Update ></a></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Main Content -->
+	<div class="container my-5">
+		<div class="row justify-content-center">
+			<div class="col-lg-8 col-md-10">
+				<h2 class="text-center mb-4">Download Your Music</h2>
+				<div class="card">
+					<div class="card-body">
+						<h5 class="card-title">Track Title</h5>
+						<h6 class="card-subtitle mb-2 text-muted">Artist Name</h6>
+						<p class="card-text">welcome to sunnyskyking official website</p>
+						<a href="/download.mp3" class="btn btn-primary">Download</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer class="bg-dark text-white py-3">
+		<div class="container text-center">
+			<p>&copy; 2023 Download Music  proudly Design by Sunnysky king int</p>
+		</div>
+	</footer>
+
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<!-- Popper.js -->
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@2.9.3/dist/umd/popper.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
